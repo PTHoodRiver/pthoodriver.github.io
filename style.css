@@ -1,0 +1,128 @@
+/* general */
+/* html
+{
+  font-family: 'Hina Mincho', serif;
+  font-size: 25px;
+  background-color: #b8cfe6;
+} */
+
+html
+{
+  font-family: 'Hina Mincho', serif;
+  font-size: 25px;
+  background-color: black;
+  color: white;
+}
+
+body
+{
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#page-title
+{
+  font-family: 'Eagle Lake', serif;
+  font-size: 60px;
+}
+
+#header
+{
+  font-family: 'Eagle Lake', serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.para
+{
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+/* menu/header stuff */
+.header-div
+{
+  font-family: 'Eagle Lake', serif;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.menu
+{
+  display: flex;
+}
+ 
+.menu-item
+{
+  flex: 1;
+  text-align: center;
+}
+
+.menu-link
+{
+  font-family: 'Eagle Lake', serif;
+  text-decoration: none;
+  font-size: 30px;
+  color:white;
+}
+
+.menu-link:hover
+{
+  color:darkolivegreen;
+}
+
+.horizontal-line
+{
+  border: none;
+  border-top: 2px solid white;
+  margin: 20px 0;
+}
+
+/* contact page stuff */
+.image-link {
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px;
+}
+
+.image-link img {
+  width: 120px; /* Adjust the width of your small images */
+  height: 120px;
+}
+
+/* gallery */
+.gallery
+{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.gallery-item
+{
+  box-sizing: border-box;
+  width: 20%; /* Adjust this value to control the width of each image */
+  margin: 15px; /* Adjust the margin to create space between images */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-item img
+{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* about me page stuff */
+.bio
+{
+  font-size: 30px;
+  text-align: left;
+}
+
